@@ -2,13 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:FirebaseInFrameworkExample.xcodeproj">
+      location = "group:FirebaseInFrameworkExample.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:ExampleKit/ExampleKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:FirebaseInFrameworkExample.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
