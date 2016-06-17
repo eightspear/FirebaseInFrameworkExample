@@ -4,4 +4,7 @@
    <FileRef
       location = "container:FirebaseInFrameworkExample.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ExampleKit/ExampleKit.xcodeproj">
+   </FileRef>
 </Workspace>
