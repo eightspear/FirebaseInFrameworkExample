@@ -8,6 +8,7 @@
 
 import UIKit
 import ExampleKit
+import Firebase
 
 class ViewController: UIViewController {
 
