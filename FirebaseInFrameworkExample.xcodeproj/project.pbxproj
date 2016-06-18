@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBEE0143134588D4E8846F6D /* Pods_Example_FirebaseInFrameworkExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C67DE7A29C57C2F01603CAB /* Pods_Example_FirebaseInFrameworkExample.framework */; };
 		E77E4A5E1D14AD61006F57BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E4A5D1D14AD61006F57BC /* AppDelegate.swift */; };
 		E77E4A601D14AD61006F57BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E4A5F1D14AD61006F57BC /* ViewController.swift */; };
 		E77E4A631D14AD61006F57BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77E4A611D14AD61006F57BC /* Main.storyboard */; };
@@ -33,7 +34,10 @@
 
 /* Begin PBXFileReference section */
 		43CDEA900CE756133DD7B98A /* Pods_FirebaseInFrameworkExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseInFrameworkExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69909824DDCF713858D32796 /* Pods-Example-FirebaseInFrameworkExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-FirebaseInFrameworkExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example-FirebaseInFrameworkExample/Pods-Example-FirebaseInFrameworkExample.debug.xcconfig"; sourceTree = "<group>"; };
 		710A99B7242E47C1475CAF1A /* Pods-FirebaseInFrameworkExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseInFrameworkExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseInFrameworkExample/Pods-FirebaseInFrameworkExample.debug.xcconfig"; sourceTree = "<group>"; };
+		9C67DE7A29C57C2F01603CAB /* Pods_Example_FirebaseInFrameworkExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example_FirebaseInFrameworkExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A667AC7833A7968907CBF1B8 /* Pods-Example-FirebaseInFrameworkExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-FirebaseInFrameworkExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example-FirebaseInFrameworkExample/Pods-Example-FirebaseInFrameworkExample.release.xcconfig"; sourceTree = "<group>"; };
 		E77E4A5A1D14AD61006F57BC /* FirebaseInFrameworkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseInFrameworkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77E4A5D1D14AD61006F57BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E77E4A5F1D14AD61006F57BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 			files = (
 				E77E4AA31D14AEE3006F57BC /* ExampleKit.framework in Frameworks */,
 				F91D9BF6837AB1E8C3321116 /* Pods_FirebaseInFrameworkExample.framework in Frameworks */,
+				BBEE0143134588D4E8846F6D /* Pods_Example_FirebaseInFrameworkExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				43CDEA900CE756133DD7B98A /* Pods_FirebaseInFrameworkExample.framework */,
+				9C67DE7A29C57C2F01603CAB /* Pods_Example_FirebaseInFrameworkExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -71,6 +77,8 @@
 			children = (
 				710A99B7242E47C1475CAF1A /* Pods-FirebaseInFrameworkExample.debug.xcconfig */,
 				F14FB3A14567F531B5534A38 /* Pods-FirebaseInFrameworkExample.release.xcconfig */,
+				69909824DDCF713858D32796 /* Pods-Example-FirebaseInFrameworkExample.debug.xcconfig */,
+				A667AC7833A7968907CBF1B8 /* Pods-Example-FirebaseInFrameworkExample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -190,7 +198,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseInFrameworkExample/Pods-FirebaseInFrameworkExample-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example-FirebaseInFrameworkExample/Pods-Example-FirebaseInFrameworkExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		705DE81C9671A4960C7E94DF /* [CP] Check Pods Manifest.lock */ = {
@@ -220,7 +228,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseInFrameworkExample/Pods-FirebaseInFrameworkExample-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example-FirebaseInFrameworkExample/Pods-Example-FirebaseInFrameworkExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -342,7 +350,7 @@
 		};
 		E77E4A6D1D14AD61006F57BC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 710A99B7242E47C1475CAF1A /* Pods-FirebaseInFrameworkExample.debug.xcconfig */;
+			baseConfigurationReference = 69909824DDCF713858D32796 /* Pods-Example-FirebaseInFrameworkExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirebaseInFrameworkExample/Info.plist;
@@ -354,7 +362,7 @@
 		};
 		E77E4A6E1D14AD61006F57BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F14FB3A14567F531B5534A38 /* Pods-FirebaseInFrameworkExample.release.xcconfig */;
+			baseConfigurationReference = A667AC7833A7968907CBF1B8 /* Pods-Example-FirebaseInFrameworkExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirebaseInFrameworkExample/Info.plist;

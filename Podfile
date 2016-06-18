@@ -1,11 +1,13 @@
 workspace 'FirebaseInFrameworkExample'
 use_frameworks!
 
-target 'FirebaseInFrameworkExample' do
+abstract_target 'Example' do
   pod 'Firebase'
+
+  target 'FirebaseInFrameworkExample'
+
+  target 'ExampleKit' do 
+    project 'ExampleKit/ExampleKit' 
+  end
 end
 
-target 'ExampleKit' do
-  project 'ExampleKit/ExampleKit'
-  pod 'Firebase'
-end
