@@ -1,7 +1,7 @@
-import Firebase
+import FirebaseWrapper
 
 public struct ExampleKit {
-    public static func log(string: String) {
-        NSLog(string)
+    public static func log() {
+        FIRAnalytics.logEventWithName("Test from ExampleKit", parameters: nil)
     }
 }

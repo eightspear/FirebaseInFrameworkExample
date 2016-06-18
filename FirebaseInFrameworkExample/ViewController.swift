@@ -8,13 +8,14 @@
 
 import UIKit
 import ExampleKit
-import Firebase
+import FirebaseWrapper
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        ExampleKit.log("Log log log")
+        FIRAnalytics.logEventWithName("Test from App", parameters: nil)
+        ExampleKit.log()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
